@@ -21,7 +21,7 @@ import jakarta.servlet.annotation.WebServlet;
 
 
 
-@WebServlet("/")
+@WebServlet("/UserServlet")
 public class UserServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private UserDao UserDao;

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class UserDao {
 
-	private String jdbcURL="jdbc:mariadb://localhost:3306/FielderDev";
+	private String jdbcURL="jdbc:mysql://localhost:3306/FielderDev";
 	private String jdbcUsername = "root";
 	private String jdbcPassword = "as";
 	private String jdbcDriver = "com.mysql.cj.jdbc.Driver";
